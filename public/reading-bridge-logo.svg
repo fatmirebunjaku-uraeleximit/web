@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="title desc">
+  <title id="title">Ura e Leximit — The Reading Bridge</title>
+  <desc id="desc">An open green book beneath a bridge, with the organization name.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Bridge arch -->
+    <path d="M93 132C137 42 211 30 260 30s123 12 167 102" stroke="#28643f" stroke-width="9"/>
+    <path d="M107 124C145 55 208 43 260 43s115 12 153 81" stroke="#4e8b4a" stroke-width="5"/>
+    <!-- Bridge deck and supports -->
+    <path d="M102 132C153 108 204 96 260 96s107 12 158 36" stroke="#28643f" stroke-width="8"/>
+    <path d="M137 83v34M177 58v47M219 43v56M260 39v57M301 43v56M343 58v47M383 83v34" stroke="#28643f" stroke-width="9"/>
+    <!-- Open book -->
+    <path d="M70 148c63-4 117-27 168 2 10 6 17 13 22 20 5-7 12-14 22-20 51-29 105-6 168-2" stroke="#28643f" stroke-width="9"/>
+    <path d="M76 146c69 4 121 5 164 29 8 4 14 9 20 15 6-6 12-11 20-15 43-24 95-25 164-29" stroke="#28643f" stroke-width="7"/>
+    <path d="M87 137c60-18 111-22 151 4 11 7 18 15 22 24 4-9 11-17 22-24 40-26 91-22 151-4" stroke="#6ba73c" stroke-width="8"/>
+    <path d="M99 126c57-19 104-16 140 8 10 7 17 15 21 25 4-10 11-18 21-25 36-24 83-27 140-8" stroke="#6ba73c" stroke-width="7"/>
+    <path d="M260 158v31" stroke="#28643f" stroke-width="6"/>
+  </g>
+  <g fill="#292f31" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+    <text x="260" y="245" font-size="55" font-weight="700" letter-spacing="-1.5">Ura e Leximit</text>
+    <text x="260" y="286" font-size="34" font-weight="600" letter-spacing="-.7">The Reading Bridge</text>
+  </g>
+</svg>
