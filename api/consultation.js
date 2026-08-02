@@ -10,7 +10,7 @@ export default async function handler(request, response) {
   try {
     const resend = new Resend(process.env.RESEND_API_KEY);
     const { error } = await resend.emails.send({
-      from: process.env.BOOKING_FROM_EMAIL || 'Ura e Leximit <onboarding@resend.dev>',
+      from: process.env.BOOKING_FROM_EMAIL || 'Ura e Leximit <bookings@uraeleximit.org>',
       to: [process.env.BOOKING_TO_EMAIL], replyTo: email,
       subject: `New consultation request — ${parentName}`,
       html: `<div style="font-family:Arial,sans-serif;line-height:1.6;color:#14243b"><h1 style="color:#0d2f68">New consultation request</h1><p><strong>Parent / guardian:</strong> ${escapeHtml(parentName)}</p><p><strong>Email:</strong> ${escapeHtml(email)}</p><p><strong>Child's age:</strong> ${escapeHtml(childAge || 'Not provided')}</p><p><strong>Focus:</strong> ${escapeHtml(focus || 'Not provided')}</p><p><strong>Website language:</strong> ${escapeHtml(language || 'Not provided')}</p><p><strong>Message:</strong></p><p>${escapeHtml(message || 'No message').replaceAll('\n','<br>')}</p></div>`
